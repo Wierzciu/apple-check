@@ -1,0 +1,11 @@
+ota:
+  # Przykładowy katalog SoftwareUpdate (OTA) dla macOS 14
+  - https://swscan.apple.com/content/catalogs/others/index-14.sucatalog
+
+www:
+  # Apple Developer Releases – RSS (Xcode + OS)
+  - https://developer.apple.com/news/releases/rss/releases.rss
+  # Apple Developer Releases – HTML
+  - https://developer.apple.com/news/releases/
+
+

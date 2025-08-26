@@ -1,0 +1,42 @@
+name: AppleCheck
+options:
+  minimumXcodeGenVersion: 2.38.0
+configs:
+  Debug: debug
+  Release: release
+settings:
+  base:
+    SWIFT_VERSION: 5.9
+    IPHONEOS_DEPLOYMENT_TARGET: 17.0
+    TARGETED_DEVICE_FAMILY: 1
+    DEVELOPMENT_TEAM: ""
+packages: {}
+targets:
+  AppleCheck:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: AppleCheck
+    scheme:
+      testTargets: []
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.AppleCheck
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0.0
+    info:
+      path: AppleCheck/Info.plist
+      properties:
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        BGTaskSchedulerPermittedIdentifiers:
+          - com.example.AppleCheck.refresh
+        UIBackgroundModes:
+          - fetch
+          - processing
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: false
+        CFBundleDisplayName: Apple Check
+        UILaunchScreen: {}
+
