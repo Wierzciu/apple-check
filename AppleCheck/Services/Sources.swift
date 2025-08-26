@@ -8,7 +8,7 @@ struct SourcesRegistry {
 
     /// Przykładowy katalog SoftwareUpdate dla macOS (OTA, plist). Uwaga: duży plik.
     /// W produkcji można dodać więcej katalogów oraz filtrować po ProductID/Build.
-    static let macOSCatalog = URL(string: "https://swscan.apple.com/content/catalogs/others/index-14.sucatalog")!
+    static let macOSCatalog = URL(string: "https://swscan.apple.com/content/catalogs/others/index.sucatalog")!
 
     /// Instrukcja: Aby dodać nowe źródło OTA/WWW, dodaj URL poniżej oraz obsługę w odpowiednim fetcherze.
     /// - Dodaj OTA (plist/XML/JSON) do `otaCatalogs`
