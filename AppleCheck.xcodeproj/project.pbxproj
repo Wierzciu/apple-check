@@ -48,6 +48,7 @@
 		9E5EB47026EF9B0EB8C77274 /* BackgroundScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundScheduler.swift; sourceTree = "<group>"; };
 		A63A7D440A4D6AE7571BBFD9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		AF76D22F19A555C0B2CC8F4E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B8D46B7A2E5DBACF00554C4F /* icon apple check.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; name = "icon apple check.icon"; path = "../icon apple check.icon"; sourceTree = SOURCE_ROOT; };
 		BCD9C6B8D9468278051AC072 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		C3849CA91FCF058D83D55CAD /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		D617A40C27E3C4A3FFD7F099 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				82B417E28CB3F5F1EB141CF2 /* AppleCheck.app */,
+				B8D46B7A2E5DBACF00554C4F /* icon apple check.icon */,
 			);
 			name = Products;
 			sourceTree = "<group>";

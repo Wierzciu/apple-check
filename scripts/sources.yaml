@@ -1,11 +1,11 @@
 ota:
-  # Przykładowy katalog SoftwareUpdate (OTA) dla macOS 14
-  - https://swscan.apple.com/content/catalogs/others/index-14.sucatalog
+  # Katalog SoftwareUpdate (OTA) dla macOS – użyj wariantu merged-1
+  # Jeśli Apple zmieni adresy, skrypt pominie 404 i przejdzie dalej
+  - https://swscan.apple.com/content/catalogs/others/index-14.merged-1.sucatalog
 
 www:
   # Apple Developer Releases – RSS (Xcode + OS)
   - https://developer.apple.com/news/releases/rss/releases.rss
   # Apple Developer Releases – HTML
   - https://developer.apple.com/news/releases/
-
 

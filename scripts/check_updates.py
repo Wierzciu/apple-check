@@ -82,8 +82,12 @@ def fetch_rss(url):
 
 def fetch_html(url):
     # Minimalne parsowanie listy releasów z HTML Apple Developer Releases
-    r = requests.get(url, timeout=30, headers={'User-Agent': 'AppleCheck/Actions'})
-    r.raise_for_status()
+    try:
+        r = requests.get(url, timeout=30, headers={'User-Agent': 'AppleCheck/Actions'})
+        r.raise_for_status()
+    except requests.RequestException as e:
+        logging.warning("WWW źródło niedostępne (%s): %s", url, e)
+        return []
     soup = BeautifulSoup(r.text, 'html.parser')
     items = []
     for card in soup.select('article a:has(h3)'):
@@ -108,12 +112,17 @@ def fetch_html(url):
 
 def fetch_macos_catalog(url):
     # Uproszczone – parsowanie plist sucatalog: szukamy pól OSVersion/BuildVersion/PostDate
-    r = requests.get(url, timeout=60, headers={'User-Agent': 'AppleCheck/Actions'})
-    r.raise_for_status()
+    try:
+        r = requests.get(url, timeout=60, headers={'User-Agent': 'AppleCheck/Actions'})
+        r.raise_for_status()
+    except requests.RequestException as e:
+        logging.warning("OTA macOS katalog niedostępny (%s): %s", url, e)
+        return []
     try:
         import plistlib
         plist = plistlib.loads(r.content)
-    except Exception:
+    except Exception as e:
+        logging.warning("Nie udało się zdekodować plist z %s: %s", url, e)
         return []
     products = plist.get('Products', {})
     items = []
@@ -307,8 +316,8 @@ def main():
             ota_items += fetch_macos_catalog(u)
 
     merged = merge(www_items, ota_items)
-    # Sort by date desc
-    merged.sort(key=lambda x: x['publishedAt'], reverse=True)
+    # Sort by date desc (None -> oldest)
+    merged.sort(key=lambda x: x['publishedAt'] or '', reverse=True)
 
     new_ones = []
     new_state_items = []
@@ -331,5 +340,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-

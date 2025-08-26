@@ -18,6 +18,8 @@ targets:
     deploymentTarget: "17.0"
     sources:
       - path: AppleCheck
+    resources:
+      - path: Assets.xcassets
     scheme:
       testTargets: []
     settings:
@@ -25,6 +27,7 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.example.AppleCheck
         CURRENT_PROJECT_VERSION: 1
         MARKETING_VERSION: 1.0.0
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
     info:
       path: AppleCheck/Info.plist
       properties:
@@ -39,4 +42,3 @@ targets:
           NSAllowsArbitraryLoads: false
         CFBundleDisplayName: Apple Check
         UILaunchScreen: {}
-
