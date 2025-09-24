@@ -18,7 +18,4 @@ applecheck.log
 __pycache__/
 *.pyc
 
-# Actions state
-scripts/state.json
-
-
+# Actions state (tracked)

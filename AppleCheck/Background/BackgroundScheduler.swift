@@ -33,7 +33,7 @@ final class BackgroundScheduler {
     }
 }
 
-private final class RefreshOperation: Operation {
+private final class RefreshOperation: Operation, @unchecked Sendable {
     override func main() {
         let group = DispatchGroup()
         group.enter()
@@ -49,5 +49,4 @@ private final class RefreshOperation: Operation {
         group.wait()
     }
 }
-
 

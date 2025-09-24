@@ -51,9 +51,9 @@ final class NotificationManager: NSObject, UNUserNotificationCenterDelegate {
         let content = UNMutableNotificationContent()
         content.title = "Nowa wersja: \(item.kind.displayName) \(item.version)"
         content.body = "Build \(item.build) • \(item.channel.displayName) • \(item.status.displayName)"
-        let req = UNNotificationRequest(identifier: item.id, content: content, trigger: nil)
+        let identifier = "\(item.id)-\(item.status.rawValue)"
+        let req = UNNotificationRequest(identifier: identifier, content: content, trigger: nil)
         UNUserNotificationCenter.current().add(req)
     }
 }
-
 

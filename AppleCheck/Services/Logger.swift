@@ -14,18 +14,23 @@ final class Logger {
     func log(_ message: String) {
         let line = "[\(Date())] \(message)\n"
         print(line)
-        if let data = line.data(using: .utf8) {
-            if fileManager.fileExists(atPath: logURL.path) {
-                if let handle = try? FileHandle(forWritingTo: logURL) {
-                    try? handle.seekToEnd()
-                    try? handle.write(contentsOf: data)
-                    try? handle.close()
-                }
-            } else {
-                try? data.write(to: logURL)
+        guard let data = line.data(using: .utf8) else { return }
+        if fileManager.fileExists(atPath: logURL.path) {
+            do {
+                let handle = try FileHandle(forWritingTo: logURL)
+                defer { try? handle.close() }
+                try handle.seekToEnd()
+                try handle.write(contentsOf: data)
+            } catch {
+                print("Logger write error: \(error)")
+            }
+        } else {
+            do {
+                try data.write(to: logURL)
+            } catch {
+                print("Logger create error: \(error)")
             }
         }
     }
 }
-
 

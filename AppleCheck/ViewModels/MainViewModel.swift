@@ -32,7 +32,7 @@ final class MainViewModel: ObservableObject {
         // Zapamiętujemy referencję do ustawień, aby nie tworzyć nowych instancji
         self.settingsRef = settings
         await refreshAll()
-        await BackgroundScheduler.shared.scheduleAppRefresh()
+        BackgroundScheduler.shared.scheduleAppRefresh()
         // Zapobiegamy wielokrotnemu uruchomieniu pętli
         if autoRefreshTask == nil || autoRefreshTask?.isCancelled == true {
             autoRefreshTask = Task { [weak self] in
@@ -227,5 +227,4 @@ struct TimerSequence: AsyncSequence {
 
     static func every(minutes: Int) -> TimerSequence { .init(interval: TimeInterval(minutes * 60)) }
 }
-
 
