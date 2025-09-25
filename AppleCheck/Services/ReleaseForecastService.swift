@@ -150,7 +150,7 @@ struct ReleaseForecastService {
     }
 
     private func earliestRumorBlurb(from rumors: [RumorPrediction]) -> String? {
-        let sorted = rumors.compactMap { rumor -> (RumorPrediction, ReleaseForecast.Window) in
+        let sorted = rumors.compactMap { rumor -> (RumorPrediction, ReleaseForecast.Window)? in
             guard let window = rumor.window else { return nil }
             return (rumor, window)
         }.sorted { lhs, rhs in
