@@ -2,13 +2,13 @@ import Foundation
 
 enum Versioning {
     static func extractMajor(from version: String) -> Int? {
-        // Wyciąga pierwszy komponent liczbowy
+        // Extract the first numeric component in the version string.
         let digits = version.firstMatch(in: #"(\d+)"#)
         return digits.flatMap { Int($0) }
     }
 
-    /// Porównanie wersji z uwzględnieniem formatu "18", "18.0", "17.7.6".
-    /// Zwraca .orderedDescending jeśli lhs > rhs.
+    /// Compares versions while supporting formats like "18", "18.0", and "17.7.6".
+    /// Returns .orderedDescending when lhs > rhs.
     static func compareVersions(_ lhs: String, _ rhs: String) -> ComparisonResult {
         func components(_ s: String) -> [Int] {
             let normalized = s.lowercased()
@@ -38,5 +38,4 @@ extension String {
         return nil
     }
 }
-
 

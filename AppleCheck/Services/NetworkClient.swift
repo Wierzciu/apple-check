@@ -1,6 +1,6 @@
 import Foundation
 
-/// Klient sieciowy z obsługą ETag i If-Modified-Since. Cache trzymany w pliku.
+/// Lightweight network client with ETag/If-Modified-Since support and a file-backed cache.
 final class NetworkClient {
     static let shared = NetworkClient()
     private init() {}
@@ -55,5 +55,4 @@ final class NetworkClient {
         return nil
     }
 }
-
 

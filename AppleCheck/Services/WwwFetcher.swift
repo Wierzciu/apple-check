@@ -1,15 +1,16 @@
 import Foundation
 
-/// Pobieranie informacji o wydaniach z WWW (RSS/HTML Apple Developer Releases, Newsroom, Support).
+/// Fetches release information from Apple developer-facing websites (RSS/HTML).
 struct WwwFetcher {
     func fetchAll() async -> [ReleaseItem] {
         async let rss = fetchFromRSS()
-        // HTML parsowanie jest opcjonalne w pierwszej wersji – RSS zwykle zawiera wszystkie releasy.
+        // HTML parsing is optional for now because the RSS feed typically lists every release.
         let items = await rss
         return items
     }
 
-    /// Prosty parser RSS (XML) pod `https://developer.apple.com/news/releases/rss/releases.rss`
+    /// Parses the developer releases RSS feed at
+    /// https://developer.apple.com/news/releases/rss/releases.rss
     private func fetchFromRSS() async -> [ReleaseItem] {
         guard let resp = try? await NetworkClient.shared.get(SourcesRegistry.releasesRSS) else { return [] }
         let parser = SimpleRSSParser()
@@ -21,17 +22,26 @@ struct WwwFetcher {
         let mapped: [ReleaseItem] = entries.compactMap { entry in
             guard let kind = guessKind(from: entry.title) else { return nil }
             let (version, build, channel, betaNum) = parseTitle(entry.title)
-            // Ustal prawdziwą datę publikacji: pubDate -> updated -> Last-Modified -> distantPast
+            // Determine publish date precedence: pubDate -> updated -> Last-Modified -> distantPast
             let date = entry.pubDate
                 ?? entry.updatedDate
                 ?? fallbackHTTPDate
                 ?? Date.distantPast
-            return ReleaseItem(kind: kind, version: version, build: build, channel: channel, publishedAt: date, status: .announce_first, deviceIdentifier: nil, betaNumber: betaNum)
+            return ReleaseItem(
+                kind: kind,
+                version: version,
+                build: build,
+                channel: channel,
+                publishedAt: date,
+                status: .announce_first,
+                deviceIdentifier: nil,
+                betaNumber: betaNum
+            )
         }
         return mapped
     }
 
-    /// Rozpoznanie OS/Xcode na podstawie tytułu
+    /// Maps an RSS title to an OS/Xcode kind.
     private func guessKind(from title: String) -> OSKind? {
         let lower = title.lowercased()
         if lower.contains("xcode") { return .xcode }
@@ -43,9 +53,9 @@ struct WwwFetcher {
         return nil
     }
 
-    /// Wydobycie wersji, builda i kanału z tytułu
+    /// Extracts the version, build, channel, and optional beta number from the title.
     private func parseTitle(_ title: String) -> (String, String, Channel, Int?) {
-        // Przykłady tytułów: "iOS 17.5 RC (21F79)", "Xcode 16 beta 2 (16A5171d)", "tvOS 18 (22L123)"
+        // Sample titles: "iOS 17.5 RC (21F79)", "Xcode 16 beta 2 (16A5171d)", "tvOS 18 (22L123)"
         let build = title.firstMatch(in: #"\(([A-Za-z0-9]+)\)"#) ?? ""
         let channel: Channel
         if title.lowercased().contains("beta") {
@@ -55,14 +65,14 @@ struct WwwFetcher {
         } else {
             channel = .release
         }
-        // Obsługa wersji z kropkami i bez kropek (np. "18")
+        // Handle versions with and without dots (e.g. "18").
         let version = title.firstMatch(in: #"(\d+(?:\.\d+){0,3})"#) ?? title
         let betaNum = title.firstMatch(in: #"beta\s*(\d+)"#).flatMap { Int($0) }
         return (version, build, channel, betaNum)
     }
 }
 
-// Minimalny parser RSS używający Foundation.XMLParser
+// Minimal RSS parser based on Foundation.XMLParser
 private final class SimpleRSSParser: NSObject, XMLParserDelegate {
     struct Entry { let title: String; let pubDate: Date?; let updatedDate: Date? }
     private var entries: [Entry] = []
@@ -134,6 +144,4 @@ private extension DateFormatter {
     }()
 }
 
-// Uwaga: rozszerzenie String.firstMatch zdefiniowane jest w `Utils/Versioning.swift`.
-
-
+// The String.firstMatch helper lives in `Utils/Versioning.swift`.

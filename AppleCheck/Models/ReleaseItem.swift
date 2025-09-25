@@ -12,26 +12,26 @@ struct ReleaseItem: Identifiable, Codable, Hashable {
     let betaNumber: Int?
 
     var formattedDate: String {
-        publishedAt.formatted(date: .abbreviated, time: .shortened)
+        DisplayDateFormatter.dateTime.string(from: publishedAt)
     }
 
     var displayTitle: String {
         let baseVersion: String = {
-            // Jeśli wersja bez kropki – pokaż .0
+            // If the version does not contain a dot, append .0 for readability.
             if version.firstIndex(of: ".") == nil { return "\(version).0" }
             return version
         }()
         switch channel {
         case .developerBeta:
             let bn = betaNumber.map { " beta \($0)" } ?? " beta"
-            return "\(kind.displayName) \(baseVersion)\(bn) - dev"
+            return "\(kind.displayName) \(baseVersion)\(bn) - Developer Beta"
         case .publicBeta:
             let bn = betaNumber.map { " beta \($0)" } ?? " beta"
-            return "\(kind.displayName) \(baseVersion)\(bn) - public"
+            return "\(kind.displayName) \(baseVersion)\(bn) - Public Beta"
         case .rc:
-            return "\(kind.displayName) \(baseVersion) RC"
+            return "\(kind.displayName) \(baseVersion) - RC"
         case .release:
-            return "\(kind.displayName) \(baseVersion) release"
+            return "\(kind.displayName) \(baseVersion) - Release"
         }
     }
 }
@@ -50,5 +50,3 @@ extension ReleaseItem {
         )
     }
 }
-
-

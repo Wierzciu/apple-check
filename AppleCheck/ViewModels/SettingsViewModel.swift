@@ -4,7 +4,7 @@ import SwiftUI
 final class SettingsViewModel: ObservableObject {
     private static let defaultKindsRaw = OSKind.allCases.map(\.rawValue).joined(separator: ",")
 
-    // Instrukcja: Zmień domyślne wartości interwału w minutach poniżej
+    // Adjust the default refresh interval below if the polling cadence changes.
     @AppStorage("refreshIntervalMinutes") var refreshIntervalMinutes: Int = 15
 
     @AppStorage("enableDeveloperBeta") var enableDeveloperBeta: Bool = true

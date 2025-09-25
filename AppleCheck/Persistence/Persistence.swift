@@ -18,7 +18,7 @@ final class PersistenceController {
     }
 
     private static func makeModel() -> NSManagedObjectModel {
-        // Programowy model Core Data: ReleaseRecord
+        // Programmatic Core Data model describing ReleaseRecord.
         let model = NSManagedObjectModel()
         let entity = NSEntityDescription()
         entity.name = "ReleaseRecord"
@@ -90,5 +90,4 @@ extension ReleaseRecord {
         if let b = item.betaNumber { obj.betaNumber = NSNumber(value: b) } else { obj.betaNumber = nil }
     }
 }
-
 

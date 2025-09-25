@@ -7,11 +7,10 @@ enum SourceStatus: String, Codable {
 
     var displayName: String {
         switch self {
-        case .device_first: return "device_first"
-        case .announce_first: return "announce_first"
+        case .device_first: return "device first"
+        case .announce_first: return "announce first"
         case .confirmed: return "confirmed"
         }
     }
 }
-
 

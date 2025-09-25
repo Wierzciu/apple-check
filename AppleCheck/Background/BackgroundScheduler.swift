@@ -18,7 +18,7 @@ final class BackgroundScheduler {
         let minutes = SettingsViewModel().refreshIntervalMinutes
         request.earliestBeginDate = Date(timeIntervalSinceNow: TimeInterval(minutes * 60))
         do { try BGTaskScheduler.shared.submit(request) } catch {
-            Logger.shared.log("Błąd submit BGTask: \(error)")
+            Logger.shared.log("BGTask submission error: \(error)")
         }
     }
 
@@ -38,7 +38,7 @@ private final class RefreshOperation: Operation, @unchecked Sendable {
         let group = DispatchGroup()
         group.enter()
         Task {
-            // Utworzenie MainViewModel na głównym aktorze i jednorazowe odświeżenie
+            // Create MainViewModel on the main actor and perform a single refresh.
             let task: Task<Void, Never> = await MainActor.run {
                 let vm = MainViewModel()
                 return Task { await vm.refreshOnce() }
@@ -49,4 +49,3 @@ private final class RefreshOperation: Operation, @unchecked Sendable {
         group.wait()
     }
 }
-

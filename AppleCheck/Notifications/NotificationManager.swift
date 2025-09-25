@@ -5,7 +5,7 @@ final class NotificationManager: NSObject, UNUserNotificationCenterDelegate {
     static let shared = NotificationManager()
     private override init() { super.init() }
 
-    // Prosta deduplikacja: zapamiętujemy powiadomienia wysłane w ostatnich 60 dniach.
+    // Simple deduplication stores notifications delivered over the last 60 days.
     private let notifiedKey = "notified_ids_v1"
     private let retentionDays: Double = 60
 
@@ -19,9 +19,8 @@ final class NotificationManager: NSObject, UNUserNotificationCenterDelegate {
     }
 
     private func dedupeKey(for item: ReleaseItem) -> String {
-        // Deduplikujemy per (id + status). Dzięki temu „confirmed” może wysłać powiadomienie
-        // nawet jeśli wcześniej wysłano „device_first/announce_first”, ale nie powtórzymy
-        // wielokrotnie tego samego statusu przy recheck.
+        // Deduplicate per (id + status). That allows "confirmed" to notify even if earlier
+        // statuses already triggered, while keeping duplicate notifications away during rechecks.
         return "\(item.id):\(item.status.rawValue)"
     }
 
@@ -29,7 +28,7 @@ final class NotificationManager: NSObject, UNUserNotificationCenterDelegate {
         let center = UNUserNotificationCenter.current()
         center.delegate = self
         center.requestAuthorization(options: [.alert, .badge, .sound]) { granted, _ in
-            Logger.shared.log("Powiadomienia: \(granted ? "granted" : "denied")")
+            Logger.shared.log("Notifications: \(granted ? "granted" : "denied")")
         }
     }
 
@@ -38,7 +37,7 @@ final class NotificationManager: NSObject, UNUserNotificationCenterDelegate {
         if item.status == .device_first && !settings.notifyDeviceFirst { return }
         if item.status == .announce_first && !settings.notifyAnnounceFirst { return }
 
-        // Deduplikacja
+        // Deduplication
         var dict = loadNotified()
         let key = dedupeKey(for: item)
         let now = Date().timeIntervalSince1970
@@ -49,11 +48,10 @@ final class NotificationManager: NSObject, UNUserNotificationCenterDelegate {
         saveNotified(dict)
 
         let content = UNMutableNotificationContent()
-        content.title = "Nowa wersja: \(item.kind.displayName) \(item.version)"
+        content.title = "New release: \(item.kind.displayName) \(item.version)"
         content.body = "Build \(item.build) • \(item.channel.displayName) • \(item.status.displayName)"
         let identifier = "\(item.id)-\(item.status.rawValue)"
         let req = UNNotificationRequest(identifier: identifier, content: content, trigger: nil)
         UNUserNotificationCenter.current().add(req)
     }
 }
-

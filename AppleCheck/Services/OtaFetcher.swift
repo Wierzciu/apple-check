@@ -1,6 +1,7 @@
 import Foundation
 
-/// Pobieranie informacji z OTA (MESU/SoftwareUpdate). Na start: przykład dla macOS catalog (plist SUCatalog).
+/// Fetches release information from OTA (MESU/SoftwareUpdate) catalogs.
+/// Initial implementation covers the macOS SUCatalog plist to showcase the approach.
 struct OtaFetcher {
     func fetchAll() async -> [ReleaseItem] {
         var results: [ReleaseItem] = []
@@ -12,13 +13,13 @@ struct OtaFetcher {
 
     private func fetchMacOSCatalog(url: URL) async -> [ReleaseItem]? {
         guard let resp = try? await NetworkClient.shared.get(url) else { return [] }
-        // SUCatalog to plist zawierający Products -> Build/Version; uproszczony parser:
+        // SUCatalog is a plist with Products keyed by identifiers containing build/version metadata.
         guard let plist = try? PropertyListSerialization.propertyList(from: resp.data, options: [], format: nil) as? [String: Any] else { return [] }
         guard let products = plist["Products"] as? [String: Any] else { return [] }
         var items: [ReleaseItem] = []
         for (_, value) in products {
             guard let dict = value as? [String: Any] else { continue }
-            // W SUCatalog PostDate bywa stringiem ISO8601 lub Date
+            // PostDate may be a Date or an ISO8601 string.
             if let anyDate = dict["PostDate"],
                let osVersion = dict["OSVersion"] as? String,
                let build = dict["BuildVersion"] as? String {
@@ -30,7 +31,16 @@ struct OtaFetcher {
                     }
                     return .distantPast
                 }()
-                let item = ReleaseItem(kind: .macOS, version: osVersion, build: build, channel: classifyChannel(version: osVersion), publishedAt: postDate, status: .device_first, deviceIdentifier: nil, betaNumber: nil)
+                let item = ReleaseItem(
+                    kind: .macOS,
+                    version: osVersion,
+                    build: build,
+                    channel: classifyChannel(version: osVersion),
+                    publishedAt: postDate,
+                    status: .device_first,
+                    deviceIdentifier: nil,
+                    betaNumber: nil
+                )
                 items.append(item)
             }
         }
@@ -44,5 +54,3 @@ struct OtaFetcher {
         return .release
     }
 }
-
-

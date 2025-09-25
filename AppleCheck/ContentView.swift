@@ -8,7 +8,24 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                Section("Najnowsze wydania") {
+                if !mainVM.iosForecast.items.isEmpty {
+                    Section("iOS Forecast") {
+                        ForEach(mainVM.iosForecast.items) { forecast in
+                            ForecastRow(forecast: forecast)
+                        }
+                        Text("Forecast generated \(DisplayDateFormatter.dateTime.string(from: mainVM.iosForecast.generatedAt)).")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+                }
+                if !mainVM.iosForecast.rumors.isEmpty {
+                    Section("Rumor Watch") {
+                        ForEach(mainVM.iosForecast.rumors) { rumor in
+                            RumorRow(rumor: rumor)
+                        }
+                    }
+                }
+                Section("Latest Releases") {
                     ForEach(mainVM.latestReleases) { item in
                         NavigationLink(value: item) {
                             ReleaseRow(item: item)
@@ -68,4 +85,52 @@ private struct ReleaseRow: View {
     }
 }
 
+private struct ForecastRow: View {
+    let forecast: ReleaseForecast
 
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack {
+                Text(forecast.headline)
+                    .font(.headline)
+                Spacer()
+                Text(forecast.window?.formatted ?? "no data")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
+            Text(forecast.note)
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+            Text("Confidence: \(forecast.confidence.displayName)")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+        }
+    }
+}
+
+private struct RumorRow: View {
+    let rumor: RumorPrediction
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack {
+                Text(rumor.source)
+                    .font(.headline)
+                Spacer()
+                Text(rumor.window?.formatted ?? "no date")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
+            Link(rumor.title, destination: rumor.url)
+                .font(.subheadline)
+            if !rumor.summary.isEmpty {
+                Text(rumor.summary)
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+            }
+            Text("Confidence: \(rumor.confidence.displayName)")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+        }
+    }
+}

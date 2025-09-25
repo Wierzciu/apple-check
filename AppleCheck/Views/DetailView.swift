@@ -23,7 +23,7 @@ struct DetailView: View {
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                 if let date = rec.publishedAt {
-                    Text(date.formatted(date: .abbreviated, time: .shortened))
+                    Text(DisplayDateFormatter.dateTime.string(from: date))
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }
@@ -32,5 +32,4 @@ struct DetailView: View {
         .navigationTitle(kind.displayName)
     }
 }
-
 

@@ -3,7 +3,7 @@ import BackgroundTasks
 
 @main
 struct AppleCheckApp: App {
-    // Kontroler persystencji (Core Data)
+    // Core Data container shared across the app.
     let persistenceController = PersistenceController.shared
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @Environment(\.scenePhase) private var scenePhase
@@ -23,14 +23,13 @@ struct AppleCheckApp: App {
     }
 }
 
-// AppDelegate do rejestracji BGTask i powiadomień
+// AppDelegate handles background tasks and notifications registration.
 final class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        // Rejestracja zadań w tle
+        // Register background refresh tasks.
         BackgroundScheduler.shared.registerTasks()
-        // Rejestracja powiadomień lokalnych
+        // Request local notification permissions.
         NotificationManager.shared.requestAuthorization()
         return true
     }
 }
-
