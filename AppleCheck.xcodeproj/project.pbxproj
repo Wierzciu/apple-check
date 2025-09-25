@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0553C9130597682560412267 /* RumorFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A5B2D732DCE4648C5C39EC /* RumorFetcher.swift */; };
 		07BCC677211F839FBBC3BC2E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4223F73DBF2B8E6B243C931C /* Logger.swift */; };
+		0864B38DDEC5047C8A40B1DC /* DisplayDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D56A1C51AF1014BA479E3 /* DisplayDateFormatter.swift */; };
 		0F998600E104C30F6A9EF88F /* Sources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67380D8ED802E7D915C7F160 /* Sources.swift */; };
 		17FACAC6D331B5EF9FCA19F9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A7D440A4D6AE7571BBFD9 /* DetailView.swift */; };
 		3B2379E5BD133A93E1BB9395 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD9C6B8D9468278051AC072 /* NotificationManager.swift */; };
 		4181873295CD6AC6489A882E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF76D22F19A555C0B2CC8F4E /* Persistence.swift */; };
 		5977B429D03C7365CAC695C8 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941B0CC8A15635C1E367965B /* SettingsViewModel.swift */; };
 		5C1B056762453658ECCB2894 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22C0FECD2AE417F7EB4379 /* App.swift */; };
+		6CC0EE2E60DF959422924CA5 /* ReleaseForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE22F49E9F592CE8359308D /* ReleaseForecast.swift */; };
 		7219642F486ABF8B41D3F4C5 /* BackgroundScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EB47026EF9B0EB8C77274 /* BackgroundScheduler.swift */; };
 		73D8DCCAC56585F8FC976A7E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B47A4D530A79DFCDF965713 /* SettingsView.swift */; };
 		95D71E9BF43A746349CE1EA2 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3849CA91FCF058D83D55CAD /* NetworkClient.swift */; };
 		98642C8970E3E4AD7F052731 /* ReleaseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C97D854CFD4E4EA08E918C /* ReleaseItem.swift */; };
+		9F77974578B6BA824058BF6C /* ReleaseForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D97E98518420CED3CBBFA8 /* ReleaseForecastService.swift */; };
+		A82C01C8F6B2F78501A7CA04 /* RumorPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B2329C550A35FA505116 /* RumorPrediction.swift */; };
 		A8E9F4E8E3218AEB36AE285B /* WwwFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05010C436B8AE1AE2387DC28 /* WwwFetcher.swift */; };
 		BCA0007B3E21896ADE6C8D81 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617A40C27E3C4A3FFD7F099 /* Channel.swift */; };
 		C836EE2EB10532FBB9ABC50E /* OSKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858510C0662B8ED3CF47A4E /* OSKind.swift */; };
@@ -35,9 +40,13 @@
 		0B47A4D530A79DFCDF965713 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		100E1E37F5BC123F2220A4D5 /* SourceStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceStatus.swift; sourceTree = "<group>"; };
 		2298BF9CF0F8441D2C6F8EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2929B2329C550A35FA505116 /* RumorPrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumorPrediction.swift; sourceTree = "<group>"; };
+		2CE22F49E9F592CE8359308D /* ReleaseForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseForecast.swift; sourceTree = "<group>"; };
 		3520C64143BAAF583F90F08F /* MergeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeService.swift; sourceTree = "<group>"; };
 		4223F73DBF2B8E6B243C931C /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		4E2D56A1C51AF1014BA479E3 /* DisplayDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDateFormatter.swift; sourceTree = "<group>"; };
 		54C97D854CFD4E4EA08E918C /* ReleaseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseItem.swift; sourceTree = "<group>"; };
+		60A5B2D732DCE4648C5C39EC /* RumorFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumorFetcher.swift; sourceTree = "<group>"; };
 		67380D8ED802E7D915C7F160 /* Sources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources.swift; sourceTree = "<group>"; };
 		82B417E28CB3F5F1EB141CF2 /* AppleCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F356AB76C4980BB4E82081 /* Versioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Versioning.swift; sourceTree = "<group>"; };
@@ -47,8 +56,8 @@
 		941B0CC8A15635C1E367965B /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		9E5EB47026EF9B0EB8C77274 /* BackgroundScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundScheduler.swift; sourceTree = "<group>"; };
 		A63A7D440A4D6AE7571BBFD9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A8D97E98518420CED3CBBFA8 /* ReleaseForecastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseForecastService.swift; sourceTree = "<group>"; };
 		AF76D22F19A555C0B2CC8F4E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		B8D46B7A2E5DBACF00554C4F /* icon apple check.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; name = "icon apple check.icon"; path = "../icon apple check.icon"; sourceTree = SOURCE_ROOT; };
 		BCD9C6B8D9468278051AC072 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		C3849CA91FCF058D83D55CAD /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		D617A40C27E3C4A3FFD7F099 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
@@ -60,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				82B417E28CB3F5F1EB141CF2 /* AppleCheck.app */,
-				B8D46B7A2E5DBACF00554C4F /* icon apple check.icon */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +104,9 @@
 			children = (
 				D617A40C27E3C4A3FFD7F099 /* Channel.swift */,
 				0858510C0662B8ED3CF47A4E /* OSKind.swift */,
+				2CE22F49E9F592CE8359308D /* ReleaseForecast.swift */,
 				54C97D854CFD4E4EA08E918C /* ReleaseItem.swift */,
+				2929B2329C550A35FA505116 /* RumorPrediction.swift */,
 				100E1E37F5BC123F2220A4D5 /* SourceStatus.swift */,
 			);
 			path = Models;
@@ -147,6 +157,7 @@
 		DAE77E823A2AE61B72DEC10F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				4E2D56A1C51AF1014BA479E3 /* DisplayDateFormatter.swift */,
 				83F356AB76C4980BB4E82081 /* Versioning.swift */,
 			);
 			path = Utils;
@@ -159,6 +170,8 @@
 				3520C64143BAAF583F90F08F /* MergeService.swift */,
 				C3849CA91FCF058D83D55CAD /* NetworkClient.swift */,
 				8871CFB1670B2A8821F851FA /* OtaFetcher.swift */,
+				A8D97E98518420CED3CBBFA8 /* ReleaseForecastService.swift */,
+				60A5B2D732DCE4648C5C39EC /* RumorFetcher.swift */,
 				67380D8ED802E7D915C7F160 /* Sources.swift */,
 				05010C436B8AE1AE2387DC28 /* WwwFetcher.swift */,
 			);
@@ -222,6 +235,7 @@
 				BCA0007B3E21896ADE6C8D81 /* Channel.swift in Sources */,
 				EF4BD0BD16728B07BB6F5F12 /* ContentView.swift in Sources */,
 				17FACAC6D331B5EF9FCA19F9 /* DetailView.swift in Sources */,
+				0864B38DDEC5047C8A40B1DC /* DisplayDateFormatter.swift in Sources */,
 				07BCC677211F839FBBC3BC2E /* Logger.swift in Sources */,
 				F6698C50C24523ADB4FEE0A0 /* MainViewModel.swift in Sources */,
 				C8D6090BDC44310528B5ABEE /* MergeService.swift in Sources */,
@@ -230,7 +244,11 @@
 				C836EE2EB10532FBB9ABC50E /* OSKind.swift in Sources */,
 				CA7C6113E48264A95A418C04 /* OtaFetcher.swift in Sources */,
 				4181873295CD6AC6489A882E /* Persistence.swift in Sources */,
+				6CC0EE2E60DF959422924CA5 /* ReleaseForecast.swift in Sources */,
+				9F77974578B6BA824058BF6C /* ReleaseForecastService.swift in Sources */,
 				98642C8970E3E4AD7F052731 /* ReleaseItem.swift in Sources */,
+				0553C9130597682560412267 /* RumorFetcher.swift in Sources */,
+				A82C01C8F6B2F78501A7CA04 /* RumorPrediction.swift in Sources */,
 				73D8DCCAC56585F8FC976A7E /* SettingsView.swift in Sources */,
 				5977B429D03C7365CAC695C8 /* SettingsViewModel.swift in Sources */,
 				CE7D43874CDA234B1B070A38 /* SourceStatus.swift in Sources */,

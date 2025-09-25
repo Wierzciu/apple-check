@@ -15,7 +15,7 @@ struct ReleaseForecast: Identifiable {
         }
     }
 
-    struct Window {
+    struct Window: Hashable {
         let earliest: Date
         let latest: Date
 
