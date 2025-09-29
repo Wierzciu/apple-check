@@ -1,6 +1,61 @@
 {
   "items": [
     {
+      "kind": "iOS",
+      "version": "26.0.1",
+      "build": "23A355",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2025-09-29T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "8fc207a05c8e88ff39e118cb79b929969262367e1e9a54b4cf359c5da3e701e2"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "26.0.1",
+      "build": "23A355",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2025-09-29T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "c4179467d8bf5cb94d8a16c55dce48b714a006c0d097aa4b7ab716524b2c3b20"
+    },
+    {
+      "kind": "macOS",
+      "version": "26.0.1",
+      "build": "25A362",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2025-09-29T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "d5a1a7f0b40273d69c882cade50d848f6d65b68d8f43a27d7b9677697c69d439"
+    },
+    {
+      "kind": "tvOS",
+      "version": "26.0.1",
+      "build": "23J362",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2025-09-29T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "e2d36b614cd16c3f3e0c9bd7da31c7cb0b73b855d5a2406189b33bb0931edee0"
+    },
+    {
+      "kind": "watchOS",
+      "version": "26.0.1",
+      "build": "23R8362",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2025-09-29T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "fd9015c0c3063156494e586457b378e05d7b37ef3ada80de861d5c46985f14bb"
+    },
+    {
       "kind": "xcode",
       "version": "26.1",
       "build": "17B5025f",
@@ -285,17 +340,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "d35801b94d5c1e1f856c7d42c2c1fc29abccf1db980da9dfa0a3d5a52af56e00"
-    },
-    {
-      "kind": "watchOS",
-      "version": "11.4",
-      "build": "22T251",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2025-04-01T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "ad4041e5dff7bab17b3e3e5ee672143007df402da49323c8ff3e17bb7e5c6f6f"
     },
     {
       "kind": "iOS",
