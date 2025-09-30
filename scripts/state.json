@@ -46,14 +46,14 @@
     },
     {
       "kind": "watchOS",
-      "version": "26.0.1",
-      "build": "23R8362",
+      "version": "26.0.2",
+      "build": "",
       "channel": "release",
       "betaNumber": null,
       "publishedAt": "2025-09-29T17:00:00+00:00",
       "status": "announce_first",
       "deviceIdentifier": null,
-      "hash": "fd9015c0c3063156494e586457b378e05d7b37ef3ada80de861d5c46985f14bb"
+      "hash": "e2de77c15c178fb3d5cc2203c213500a1686027360a76614c1dfeb5199699af7"
     },
     {
       "kind": "xcode",
