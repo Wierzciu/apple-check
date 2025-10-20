@@ -1,6 +1,72 @@
 {
   "items": [
     {
+      "kind": "xcode",
+      "version": "26.1",
+      "build": "17B5045g",
+      "channel": "developerBeta",
+      "betaNumber": 3,
+      "publishedAt": "2025-10-20T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "ec3b03afcbd679f885023653962e4946ac6764d8e7ea723b4a243ef6e5f8ea12"
+    },
+    {
+      "kind": "iOS",
+      "version": "26.1",
+      "build": "23B5073a",
+      "channel": "developerBeta",
+      "betaNumber": 4,
+      "publishedAt": "2025-10-20T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "ff79c539c6a113d969be6308ec827601429d1e3e45f092d820074be6546ae6e0"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "26.1",
+      "build": "23B5073a",
+      "channel": "developerBeta",
+      "betaNumber": 4,
+      "publishedAt": "2025-10-20T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "b4799646b898c460d66da507ef7da8e82702d5366ba4c743b971c5b92acd581a"
+    },
+    {
+      "kind": "macOS",
+      "version": "26.1",
+      "build": "25B5072a",
+      "channel": "developerBeta",
+      "betaNumber": 4,
+      "publishedAt": "2025-10-20T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "395764564d892ddbbf34baae15d553a2f72fd04f0e2c9b0810ef70e8bbb9ddd0"
+    },
+    {
+      "kind": "tvOS",
+      "version": "26.1",
+      "build": "23J5571a",
+      "channel": "developerBeta",
+      "betaNumber": 4,
+      "publishedAt": "2025-10-20T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "2cb7f5f5590cd85cd3c4e167d9d18db0b6e33435fd33ae064e78ab71887de87a"
+    },
+    {
+      "kind": "watchOS",
+      "version": "26.1",
+      "build": "23S5031a",
+      "channel": "developerBeta",
+      "betaNumber": 4,
+      "publishedAt": "2025-10-20T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "3586142edbeba7ba6a04d30766753cd47269fd2bd239443490a513911cf36853"
+    },
+    {
       "kind": "iPadOS",
       "version": "26.0.1",
       "build": "23A8464",
@@ -21,72 +87,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "0516a734c36cfb7c353a2a401cf5b7cdfe9fddf9e1e90c08d44fb926846628e7"
-    },
-    {
-      "kind": "iOS",
-      "version": "26.1",
-      "build": "23B5064e",
-      "channel": "developerBeta",
-      "betaNumber": 3,
-      "publishedAt": "2025-10-13T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "cd701d39ffe82eec5fa0bf4ecdb6de2dffe23c21547838b527fa451419eca086"
-    },
-    {
-      "kind": "iPadOS",
-      "version": "26.1",
-      "build": "23B5064e",
-      "channel": "developerBeta",
-      "betaNumber": 3,
-      "publishedAt": "2025-10-13T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "10468e593413aeaea3841f0c09c893fe36400562c7e53b275a60697b4ea92aaa"
-    },
-    {
-      "kind": "macOS",
-      "version": "26.1",
-      "build": "25B5062e",
-      "channel": "developerBeta",
-      "betaNumber": 3,
-      "publishedAt": "2025-10-13T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "b56c0f30ce2b46c9ef6f40cc18b13e5d5302d0074304ebe830de8ee4dd2cfc50"
-    },
-    {
-      "kind": "tvOS",
-      "version": "26.1",
-      "build": "23J5563d",
-      "channel": "developerBeta",
-      "betaNumber": 3,
-      "publishedAt": "2025-10-13T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "e587e019fa2c03a75b720a6ea83890b618ded93d57d1bd90b198401213e4f1f1"
-    },
-    {
-      "kind": "watchOS",
-      "version": "26.1",
-      "build": "23S5022e",
-      "channel": "developerBeta",
-      "betaNumber": 3,
-      "publishedAt": "2025-10-13T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "48bf6943328060f88c782bca04a65aa15e93de2f9939ec481ae760c70f63495b"
-    },
-    {
-      "kind": "xcode",
-      "version": "26.1",
-      "build": "17B5035f",
-      "channel": "developerBeta",
-      "betaNumber": 2,
-      "publishedAt": "2025-10-06T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "71b284ce60f8b591aacc72b32a1036522b84ddb006be476ac294fe53c97b622a"
     },
     {
       "kind": "iOS",
