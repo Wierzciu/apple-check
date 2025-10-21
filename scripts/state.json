@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "iPadOS",
+      "version": "26.0.1",
+      "build": "23A8466",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2025-10-21T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "d01a77118ce0f6de29b42c57c565a439dc575b46d0ba01247620930761288d40"
+    },
+    {
       "kind": "xcode",
       "version": "26.1",
       "build": "17B5045g",
@@ -65,17 +76,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "3586142edbeba7ba6a04d30766753cd47269fd2bd239443490a513911cf36853"
-    },
-    {
-      "kind": "iPadOS",
-      "version": "26.0.1",
-      "build": "23A8464",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2025-10-16T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "4dccc56e028f88ccfef465ab6285c7e055abc7df8e0d7c7b5aac77d779d9e726"
     },
     {
       "kind": "macOS",
@@ -384,6 +384,17 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "beabccfed710b2b229598d981c89f3f8403cc527da5e52efe10fbc3b8b54ba9a"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "17.7.6",
+      "build": "21H423",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2025-03-24T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "e081718b063aaaafe672ac592987f2ac366513c10d59cee150fb653c522286eb"
     }
   ]
 }
