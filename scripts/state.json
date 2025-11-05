@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "kind": "iOS",
+      "version": "18.7.2",
+      "build": "22H124",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2025-11-05T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "ce28a8273d3009c484b2272cf55e244d2c3c443b2006ac61a93a418dc9dc99d9"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "18.7.2",
+      "build": "22H124",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2025-11-05T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "38db60e1eae7874265a896967f17a3f1f0d09c6ce9cf52c153964c4cef8dde73"
+    },
+    {
       "kind": "xcode",
       "version": "26.2",
       "build": "17C5013i",
@@ -120,28 +142,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "5807bcccbd08b6d060878c07b1a91569984d4ae9880347f17403d1d18f9aab99"
-    },
-    {
-      "kind": "iOS",
-      "version": "18.7.2",
-      "build": "22H123",
-      "channel": "rc",
-      "betaNumber": null,
-      "publishedAt": "2025-10-28T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "afc2365138c63fbe360163f0425ab98f5fd888878106a881120094712bb70ba2"
-    },
-    {
-      "kind": "iPadOS",
-      "version": "18.7.2",
-      "build": "22H123",
-      "channel": "rc",
-      "betaNumber": null,
-      "publishedAt": "2025-10-28T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "64cca4b31c3080323254be77626bb068038ad0f28cb3bc3a7becb4d3d9719aff"
     },
     {
       "kind": "iPadOS",
