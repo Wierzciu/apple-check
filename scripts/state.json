@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "macOS",
+      "version": "26.2",
+      "build": "25C5031i",
+      "channel": "developerBeta",
+      "betaNumber": null,
+      "publishedAt": "2025-11-06T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "d1ed57e29117a23bb5b4203c87621cca5f89124afe14d44da3a11b682fb30ee4"
+    },
+    {
       "kind": "iOS",
       "version": "18.7.2",
       "build": "22H124",
@@ -384,17 +395,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "a9b4e8e7cbcfee136455bbc72cb413eb4a8e6e41e8f357046e75e771ec74fc3d"
-    },
-    {
-      "kind": "macOS",
-      "version": "15.5",
-      "build": "24F74",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2025-05-12T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "0997ec341828cdacb7b3814decbab3ca19e204b32b6911ab90f35f35eff9aeea"
     },
     {
       "kind": "iOS",
