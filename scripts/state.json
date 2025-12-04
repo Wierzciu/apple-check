@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "tvOS",
+      "version": "26.2",
+      "build": "23K53",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2025-12-04T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "52a0d49a39e4ce2bf9e6ff09427c9596984d61a9bf74ccf92c06944db491d65c"
+    },
+    {
       "kind": "xcode",
       "version": "26.2",
       "build": "17C48",
@@ -43,17 +54,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "7891973e4354f2470bad79de655f8e7b5dce9f89ac659cd357ed753c6da22fae"
-    },
-    {
-      "kind": "tvOS",
-      "version": "26.2",
-      "build": "23K51",
-      "channel": "rc",
-      "betaNumber": null,
-      "publishedAt": "2025-12-03T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "bda2e16e1499ac5180004beb9147db2208b17ec74fef9bcb114ede42de4a6d3e"
     },
     {
       "kind": "watchOS",
