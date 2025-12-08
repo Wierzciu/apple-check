@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "iOS",
+      "version": "26.2",
+      "build": "23C54",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2025-12-08T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "6094b31a02d2f4bbf3b0d12d46d06d3a7856f4a44812967da7ccb2824b42084e"
+    },
+    {
       "kind": "tvOS",
       "version": "26.2",
       "build": "23K53",
@@ -21,17 +32,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "422d4adbb7fd9f64fcf792a8b322d7ee7681db7be6506c268df87c137f4f2ef8"
-    },
-    {
-      "kind": "iOS",
-      "version": "26.2",
-      "build": "23C52",
-      "channel": "rc",
-      "betaNumber": null,
-      "publishedAt": "2025-12-03T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "c4d27474308282ecf91ec9bc35aaaf1b6b720dcf04496a41f18618b5da3330d1"
     },
     {
       "kind": "iPadOS",
