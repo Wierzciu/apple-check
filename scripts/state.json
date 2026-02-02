@@ -2,6 +2,28 @@
   "items": [
     {
       "kind": "iOS",
+      "version": "16.7.14",
+      "build": "20H370",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-02-02T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "fa20441f9139a6258a83aa068912b3975c0eb8af3bc03e5196dfe2cf0e23614f"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "16.7.14",
+      "build": "20H370",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-02-02T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "4085fa53643c9e037e63ed59084f0025db88ea3d77a952eb322503734177ee26"
+    },
+    {
+      "kind": "iOS",
       "version": "26.3",
       "build": "23D5114d",
       "channel": "developerBeta",
@@ -109,28 +131,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "b72fe54571d37d7bfd73f909bee1c1cec88e8bc67e1dcac904aa02a6bfa05e23"
-    },
-    {
-      "kind": "iOS",
-      "version": "16.7.13",
-      "build": "20H365",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2026-01-26T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "251713e29a1e019be3e68a2c3abd52ddd42730c8c6bcc01438ef1647c67e324b"
-    },
-    {
-      "kind": "iPadOS",
-      "version": "16.7.13",
-      "build": "20H365",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2026-01-26T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "de368a7b5e32bd09b56dc1e9ffd07672be817c0031537298ff1cd6961f68071c"
     },
     {
       "kind": "iOS",
