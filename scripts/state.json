@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "xcode",
+      "version": "26.3",
+      "build": "17C519",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-02-03T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "294666c86f8a7439afb38c93cce30f6c4957ce4c7831a27edb69bf4a559442e2"
+    },
+    {
       "kind": "iOS",
       "version": "16.7.14",
       "build": "20H370",
@@ -179,13 +190,13 @@
     {
       "kind": "xcode",
       "version": "26.2",
-      "build": "17C52",
+      "build": "",
       "channel": "release",
       "betaNumber": null,
       "publishedAt": "2025-12-12T17:00:00+00:00",
       "status": "announce_first",
       "deviceIdentifier": null,
-      "hash": "18ef653ea6fe167798c4423046201ae855772bff72dedbdfe13ebcd58ce98f71"
+      "hash": "76c8d6fa66c5d3fa1a2704c46f4d73096ec6de33912eb9a703040db7b4a75e5e"
     },
     {
       "kind": "macOS",
