@@ -1,6 +1,83 @@
 {
   "items": [
     {
+      "kind": "iOS",
+      "version": "26.3",
+      "build": "23D125",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-02-04T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "b2deb4254f764f71da2a96224c12396ac9270e2a2c638431ebfed4cf914a6c4e"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "26.3",
+      "build": "23D125",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-02-04T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "bfb28dfec898161c601a2e69ab335096793caf6bfc5531731a1f28fa30294c46"
+    },
+    {
+      "kind": "macOS",
+      "version": "26.3",
+      "build": "25D122",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-02-04T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "fa89fd4d5b41c699ba80c9607b1604ceb41c45bb585f3abe661a2bd8cdbb66bd"
+    },
+    {
+      "kind": "tvOS",
+      "version": "26.3",
+      "build": "23K619",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-02-04T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "6d83f9d7e56f0c0cd7b045d5b012df5f7c736ff28ae32b4a1707b11fc8702942"
+    },
+    {
+      "kind": "watchOS",
+      "version": "26.3",
+      "build": "23S618",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-02-04T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "eb074a34586ec11fb0204a368275c565fba1e425da65ad86265917ebaaabfd26"
+    },
+    {
+      "kind": "iOS",
+      "version": "18.7.5",
+      "build": "22H311",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-02-04T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "9aacf3e38fc474c101542d492f3612e4bd440fb7535632ff8a932aebf5ecc515"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "18.7.5",
+      "build": "22H311",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-02-04T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "9426ccba81d8efa8ff87f49edbf19beef4953edad9c3826447c7b70f9d4964fb"
+    },
+    {
       "kind": "xcode",
       "version": "26.3",
       "build": "17C519",
@@ -43,50 +120,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "df70e768add46e3679cabd2a1671498f553c86e6e0cc611c3e28af0cbd9f78c7"
-    },
-    {
-      "kind": "iPadOS",
-      "version": "26.3",
-      "build": "23D5114d",
-      "channel": "developerBeta",
-      "betaNumber": 3,
-      "publishedAt": "2026-01-26T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "7cc66e79f970754659062e4c48d877323ffe7c164c268f85f135c2c73315b35a"
-    },
-    {
-      "kind": "macOS",
-      "version": "26.3",
-      "build": "25D5112c",
-      "channel": "developerBeta",
-      "betaNumber": 3,
-      "publishedAt": "2026-01-26T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "933e439eb033baec37fbce588de1da1396362e5e30b81565a1ec40f0fd2150bd"
-    },
-    {
-      "kind": "tvOS",
-      "version": "26.3",
-      "build": "23K5611c",
-      "channel": "developerBeta",
-      "betaNumber": 3,
-      "publishedAt": "2026-01-26T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "d914ebe8cf60c99804ddfea33302a8fb699c886758a9974e2d66d5729e70c994"
-    },
-    {
-      "kind": "watchOS",
-      "version": "26.3",
-      "build": "23S5611c",
-      "channel": "developerBeta",
-      "betaNumber": 3,
-      "publishedAt": "2026-01-26T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "3a98bf372cbdadc248018f800bb6e8741b7467311f438fac270eb5366d2c7133"
     },
     {
       "kind": "iOS",
