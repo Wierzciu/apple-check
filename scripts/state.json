@@ -2,6 +2,17 @@
   "items": [
     {
       "kind": "xcode",
+      "version": "26.3",
+      "build": "17C528",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-02-20T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "1e34e39df98d22f3cefa90e4879f99a2c1f509263ba8b4f8953e9c4a48193c37"
+    },
+    {
+      "kind": "xcode",
       "version": "26.4",
       "build": "17E5159k",
       "channel": "developerBeta",
@@ -142,17 +153,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "9426ccba81d8efa8ff87f49edbf19beef4953edad9c3826447c7b70f9d4964fb"
-    },
-    {
-      "kind": "xcode",
-      "version": "26.3",
-      "build": "17C519",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2026-02-03T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "294666c86f8a7439afb38c93cce30f6c4957ce4c7831a27edb69bf4a559442e2"
     },
     {
       "kind": "iOS",
@@ -318,17 +318,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "20a499ac2685ea979fd25287ff14143d4f1323cd9fec6e77db3b60e1c21dd909"
-    },
-    {
-      "kind": "xcode",
-      "version": "26.2",
-      "build": "17C48",
-      "channel": "rc",
-      "betaNumber": null,
-      "publishedAt": "2025-12-03T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "422d4adbb7fd9f64fcf792a8b322d7ee7681db7be6506c268df87c137f4f2ef8"
     },
     {
       "kind": "xcode",
