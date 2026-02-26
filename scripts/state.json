@@ -3,13 +3,13 @@
     {
       "kind": "xcode",
       "version": "26.3",
-      "build": "17C519",
+      "build": "17C529",
       "channel": "release",
       "betaNumber": null,
       "publishedAt": "2026-02-26T18:00:00+00:00",
       "status": "announce_first",
       "deviceIdentifier": null,
-      "hash": "294666c86f8a7439afb38c93cce30f6c4957ce4c7831a27edb69bf4a559442e2"
+      "hash": "03e69f466be309d46e2c61506cc99517b02a2fd9cff144b9bc60b5a024bf7590"
     },
     {
       "kind": "xcode",
