@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "xcode",
+      "version": "26.4",
+      "build": "17E5179g",
+      "channel": "developerBeta",
+      "betaNumber": 3,
+      "publishedAt": "2026-03-09T17:45:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "c667f67f94d827e8241c4d3cf9a622550a36634cf920c2b1e6311c1158e65f60"
+    },
+    {
       "kind": "iOS",
       "version": "26.4",
       "build": "23E5234a",
@@ -109,17 +120,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "03e69f466be309d46e2c61506cc99517b02a2fd9cff144b9bc60b5a024bf7590"
-    },
-    {
-      "kind": "xcode",
-      "version": "26.4",
-      "build": "17E5170d",
-      "channel": "developerBeta",
-      "betaNumber": 2,
-      "publishedAt": "2026-02-23T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "6770cc5e3a16f83e4f2256b6331b10d16e0b84edda6a435cd2ec8726f9cefd64"
     },
     {
       "kind": "tvOS",
