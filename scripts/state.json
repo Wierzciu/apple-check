@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "macOS",
+      "version": "26.3.2",
+      "build": "25D2140",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-03-10T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "9343d706918557352eb6b2d5489c9b72d426b713456038211a552c1ee696fe79"
+    },
+    {
       "kind": "xcode",
       "version": "26.4",
       "build": "17E5179g",
@@ -87,17 +98,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "bc80e9dc29c266636b3b006603feed440fbf082b0e6cb9c23ffff9123872458b"
-    },
-    {
-      "kind": "macOS",
-      "version": "26.3.1",
-      "build": "25D2128",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2026-03-04T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "5be9e74ffcf81511fea608850969d1954df9b48fa8a363230feb08b52b5cd9fc"
     },
     {
       "kind": "iOS",
