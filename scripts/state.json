@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "xcode",
+      "version": "26.4",
+      "build": "17E192",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-03-18T18:35:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "e0ee1bde89c192fc733c1efb5e4614fb4916fb721694c3ffe17425b9e856a000"
+    },
+    {
       "kind": "iOS",
       "version": "26.4",
       "build": "23E244",
@@ -131,17 +142,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "9343d706918557352eb6b2d5489c9b72d426b713456038211a552c1ee696fe79"
-    },
-    {
-      "kind": "xcode",
-      "version": "26.4",
-      "build": "17E5179g",
-      "channel": "developerBeta",
-      "betaNumber": 3,
-      "publishedAt": "2026-03-09T17:45:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "c667f67f94d827e8241c4d3cf9a622550a36634cf920c2b1e6311c1158e65f60"
     },
     {
       "kind": "iOS",
