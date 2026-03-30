@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "xcode",
+      "version": "26.5",
+      "build": "17F5012f",
+      "channel": "developerBeta",
+      "betaNumber": null,
+      "publishedAt": "2026-03-30T21:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "a924bbc0d2f52b726bcb9fe940619fd9d2f645cb65440ba2873a77f79ca6f224"
+    },
+    {
       "kind": "iOS",
       "version": "26.5",
       "build": "23F5043g",
