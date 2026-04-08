@@ -2,6 +2,28 @@
   "items": [
     {
       "kind": "iOS",
+      "version": "26.4.1",
+      "build": "23E254",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-04-08T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "8ce1dc7cb5ae35189ea355041aa3af5d645ab35d18fc648436d99872395b580f"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "26.4.1",
+      "build": "23E254",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-04-08T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "365fa9292876ce796747a2de9e275858ed3ac173fd263cddea35a800900f56af"
+    },
+    {
+      "kind": "iOS",
       "version": "26.5",
       "build": "v2",
       "channel": "developerBeta",
@@ -98,28 +120,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "e0ee1bde89c192fc733c1efb5e4614fb4916fb721694c3ffe17425b9e856a000"
-    },
-    {
-      "kind": "iOS",
-      "version": "26.4",
-      "build": "23E246",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2026-03-24T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "76f56549c4070830f0a90c54fbfe13a3c006806bae8b0d7e50f2af637ae0280d"
-    },
-    {
-      "kind": "iPadOS",
-      "version": "26.4",
-      "build": "23E246",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2026-03-24T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "d68aeadf8a611113e165d63f85c4f040f5e1560bdd493ba78fed97330fc099a8"
     },
     {
       "kind": "macOS",
