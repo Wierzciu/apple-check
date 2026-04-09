@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "macOS",
+      "version": "26.4.1",
+      "build": "25E253",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-04-09T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "602aa2cfe7ffb3a8c58ccd948ec26595d7b3b2edb9d75e635008063f1064bc7d"
+    },
+    {
       "kind": "iOS",
       "version": "26.4.1",
       "build": "23E254",
@@ -120,17 +131,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "e0ee1bde89c192fc733c1efb5e4614fb4916fb721694c3ffe17425b9e856a000"
-    },
-    {
-      "kind": "macOS",
-      "version": "26.4",
-      "build": "25E246",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2026-03-24T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "7110101ce137fb2d561bf4ea9c2b89320e1158ab62472aeecd54e394bef6d943"
     },
     {
       "kind": "tvOS",
