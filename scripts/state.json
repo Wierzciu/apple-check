@@ -3,68 +3,90 @@
     {
       "kind": "xcode",
       "version": "26.5",
-      "build": "17F5032f",
-      "channel": "developerBeta",
-      "betaNumber": 3,
-      "publishedAt": "2026-04-27T17:00:00+00:00",
+      "build": "17F42",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-05-04T17:00:00+00:00",
       "status": "announce_first",
       "deviceIdentifier": null,
-      "hash": "26b7d01a2101b25736bf5b72860a586f0dbba6de912da03831f5f6ad595703c4"
+      "hash": "62414223992202e4873942d1b85069e0fa0c3258aab1f4de138ee6c1e9b38a0d"
     },
     {
       "kind": "iOS",
       "version": "26.5",
-      "build": "23F5069b",
-      "channel": "developerBeta",
-      "betaNumber": 4,
-      "publishedAt": "2026-04-27T17:00:00+00:00",
+      "build": "23F75",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-05-04T17:00:00+00:00",
       "status": "announce_first",
       "deviceIdentifier": null,
-      "hash": "6f9b8bc6f6062e4096f783d6688679881c192b32845d5f8d62418f7860483b63"
+      "hash": "79ac9b08ff05970e512662f97d33f602bda3d91c27227946ca7d622192b7c37f"
     },
     {
       "kind": "iPadOS",
       "version": "26.5",
-      "build": "23F5069b",
-      "channel": "developerBeta",
-      "betaNumber": 4,
-      "publishedAt": "2026-04-27T17:00:00+00:00",
+      "build": "23F75",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-05-04T17:00:00+00:00",
       "status": "announce_first",
       "deviceIdentifier": null,
-      "hash": "3252babc17d27a275ee51e72b82dfdf3804bb829bf4f906d9982a041b754043d"
+      "hash": "e739d7fbf6f27b433ac2f3d3fcb817efdc00fe612fe595ce17afd45a2ba19985"
     },
     {
       "kind": "macOS",
       "version": "26.5",
-      "build": "25F5068a",
-      "channel": "developerBeta",
-      "betaNumber": 4,
-      "publishedAt": "2026-04-27T17:00:00+00:00",
+      "build": "25F71",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-05-04T17:00:00+00:00",
       "status": "announce_first",
       "deviceIdentifier": null,
-      "hash": "7f5300bd325530d5fcf7110f548de9458110d5c211e8819810fc33c475981705"
+      "hash": "425bf6a1394d25f7cc28f6502f8ad49eca78a5c46e9ed0d246d23d843ad6d416"
     },
     {
       "kind": "tvOS",
       "version": "26.5",
-      "build": "23L5469a",
-      "channel": "developerBeta",
-      "betaNumber": 4,
-      "publishedAt": "2026-04-27T17:00:00+00:00",
+      "build": "23L471",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-05-04T17:00:00+00:00",
       "status": "announce_first",
       "deviceIdentifier": null,
-      "hash": "cfb3c584f8243c88f60dce14f5f5cee17ef3ac55059be8da3e63cf0515f26c62"
+      "hash": "1d62a085c369f88c6677ce5e679ed85b8fb77413e2523387030966ee54111946"
     },
     {
       "kind": "watchOS",
       "version": "26.5",
-      "build": "23T5568a",
-      "channel": "developerBeta",
-      "betaNumber": 4,
-      "publishedAt": "2026-04-27T17:00:00+00:00",
+      "build": "23T570",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-05-04T17:00:00+00:00",
       "status": "announce_first",
       "deviceIdentifier": null,
-      "hash": "760868260f7be550b1a83201ed749405b3347b688c8b0480867cbc19488570bf"
+      "hash": "cbfccc81e479e201b6bc8e8b451416efc4521bc0ba2fe7c166e56072c9cb4cfa"
+    },
+    {
+      "kind": "iOS",
+      "version": "18.7.9",
+      "build": "22H355",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-05-04T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "4ec393f5753a8d1b475f6004313f3c5c54e02e18db3df05f26210a9d5c62cae3"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "18.7.9",
+      "build": "22H355",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-05-04T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "75f442995040ae05c86b05b5d905d3a55044d6357b2aa8a3798991846d2962bd"
     },
     {
       "kind": "iOS",
@@ -87,28 +109,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "97dd1442b3aeda5b5eca743c53a777fd6222ca0437025c460ed0ab4493a21941"
-    },
-    {
-      "kind": "iOS",
-      "version": "18.7.8",
-      "build": "22H352",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2026-04-22T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "47581ba754b3b7f2b267642a7322085b20b04c027654dae2a0857ab6c6079f95"
-    },
-    {
-      "kind": "iPadOS",
-      "version": "18.7.8",
-      "build": "22H352",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2026-04-22T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "ddccdd3cafbc8be30161a9184417374e852b382098ceef47f90c33b5f7203663"
     },
     {
       "kind": "xcode",
