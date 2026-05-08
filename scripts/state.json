@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "kind": "iOS",
+      "version": "26.5",
+      "build": "23F77",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-05-08T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "5886f5a941c9a87653bc1fb94ba829ab6b372d3376a346640ecc67e6d8b84cfc"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "26.5",
+      "build": "23F77",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-05-08T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "de20d85a989463d6ca68d8b61e741799bf6ae2e8fcf9ead7914f95b931e3fedc"
+    },
+    {
       "kind": "xcode",
       "version": "26.5",
       "build": "17F42",
@@ -10,28 +32,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "62414223992202e4873942d1b85069e0fa0c3258aab1f4de138ee6c1e9b38a0d"
-    },
-    {
-      "kind": "iOS",
-      "version": "26.5",
-      "build": "23F75",
-      "channel": "rc",
-      "betaNumber": null,
-      "publishedAt": "2026-05-04T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "79ac9b08ff05970e512662f97d33f602bda3d91c27227946ca7d622192b7c37f"
-    },
-    {
-      "kind": "iPadOS",
-      "version": "26.5",
-      "build": "23F75",
-      "channel": "rc",
-      "betaNumber": null,
-      "publishedAt": "2026-05-04T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "e739d7fbf6f27b433ac2f3d3fcb817efdc00fe612fe595ce17afd45a2ba19985"
     },
     {
       "kind": "macOS",
