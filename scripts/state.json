@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "xcode",
+      "version": "27",
+      "build": "27A5209h",
+      "channel": "developerBeta",
+      "betaNumber": 2,
+      "publishedAt": "2026-06-22T22:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "1053185c3892843a2feb32f5f4e096a78be79170c7210a2606380c370f386591"
+    },
+    {
       "kind": "iOS",
       "version": "27.0",
       "build": "24A5370h",
@@ -109,17 +120,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "2bd360bbdf33c55fc27fbaf39f65f31c0d938359978d71301aee486eea02ad18"
-    },
-    {
-      "kind": "xcode",
-      "version": "27",
-      "build": "27A5194q",
-      "channel": "developerBeta",
-      "betaNumber": null,
-      "publishedAt": "2026-06-08T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "26bf07031a58ccfe5bda286b3fce73d53994ec5d44bcaddcf4153854a8b4b2a3"
     },
     {
       "kind": "watchOS",
