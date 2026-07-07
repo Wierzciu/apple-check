@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "xcode",
+      "version": "27",
+      "build": "27A5218g",
+      "channel": "developerBeta",
+      "betaNumber": 3,
+      "publishedAt": "2026-07-06T21:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "4bdce3321fadb7b9b0a0b14d3f5a1b4ff800c96219b87dc5301bd76c7ebeb5fe"
+    },
+    {
       "kind": "iOS",
       "version": "27.0",
       "build": "24A5380h",
@@ -153,17 +164,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "abb43b844151e00b09c8bdff5c88027aa80b3e3ab74c492e3da7716220d80a44"
-    },
-    {
-      "kind": "xcode",
-      "version": "27",
-      "build": "27A5209h",
-      "channel": "developerBeta",
-      "betaNumber": 2,
-      "publishedAt": "2026-06-22T22:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "1053185c3892843a2feb32f5f4e096a78be79170c7210a2606380c370f386591"
     },
     {
       "kind": "xcode",
