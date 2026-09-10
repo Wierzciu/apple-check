@@ -67,6 +67,17 @@
       "hash": "14333e35cca0eabaff0670dc1262c00c33b2b06eb76086c379219830f6eabe6c"
     },
     {
+      "kind": "iPadOS",
+      "version": "26.7",
+      "build": "23H24",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-09-09T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "826205fde2b8650671146e159e5f794cd789057172ae9a8ca9b6df4b38f2a274"
+    },
+    {
       "kind": "iOS",
       "version": "26.6.2",
       "build": "23G90",
@@ -362,17 +373,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "de20d85a989463d6ca68d8b61e741799bf6ae2e8fcf9ead7914f95b931e3fedc"
-    },
-    {
-      "kind": "iOS",
-      "version": "18.7.9",
-      "build": "22H355",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2026-05-04T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "4ec393f5753a8d1b475f6004313f3c5c54e02e18db3df05f26210a9d5c62cae3"
     }
   ]
 }
