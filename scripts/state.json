@@ -2,6 +2,17 @@
   "items": [
     {
       "kind": "xcode",
+      "version": "27.1",
+      "build": "27A9269",
+      "channel": "developerBeta",
+      "betaNumber": null,
+      "publishedAt": "2026-09-18T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "f5b8db7cbf1d6bef5508f29f94c19203ed7f500690c6eb5b0b8c9f9e225af2f0"
+    },
+    {
+      "kind": "xcode",
       "version": "27.2",
       "build": "27B5019j",
       "channel": "developerBeta",
