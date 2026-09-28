@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "watchOS",
+      "version": "27.0.1",
+      "build": "24R365",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-09-28T20:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "eb209df12d97be4bb7b1cc4075e8d982f161be028d719bf5eda31bcac666a7e9"
+    },
+    {
       "kind": "xcode",
       "version": "27.2",
       "build": "27B5028f",
