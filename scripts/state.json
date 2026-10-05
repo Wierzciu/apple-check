@@ -1,6 +1,72 @@
 {
   "items": [
     {
+      "kind": "iOS",
+      "version": "27.2",
+      "build": "24B5099f",
+      "channel": "developerBeta",
+      "betaNumber": 3,
+      "publishedAt": "2026-10-05T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "efcfdfc1ed391d0f84b411dc6b36c0429e3dd6b045aa81ee6a4edeab15534bd2"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "27.2",
+      "build": "24B5099f",
+      "channel": "developerBeta",
+      "betaNumber": 3,
+      "publishedAt": "2026-10-05T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "dc747dc77eaae150e7d36b05fa6e49b867139cf8051aee6a9198b4140f73c9af"
+    },
+    {
+      "kind": "macOS",
+      "version": "27.2",
+      "build": "26B5101f",
+      "channel": "developerBeta",
+      "betaNumber": 3,
+      "publishedAt": "2026-10-05T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "e22ae25d88f881f0b4c10aa79d640388388803a46f2ae625e03dc221194c72be"
+    },
+    {
+      "kind": "tvOS",
+      "version": "27.2",
+      "build": "24K5103f",
+      "channel": "developerBeta",
+      "betaNumber": 3,
+      "publishedAt": "2026-10-05T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "e6e349eac55d11bd632378da70734ca1a879964ae6a96c8338b0b038fc07ba85"
+    },
+    {
+      "kind": "watchOS",
+      "version": "27.2",
+      "build": "24S5101f",
+      "channel": "developerBeta",
+      "betaNumber": 3,
+      "publishedAt": "2026-10-05T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "4b23f2f012c5c16296988fcc9dd15980e56825cf3ec9c768d0e051f9680dac08"
+    },
+    {
+      "kind": "xcode",
+      "version": "27.1",
+      "build": "27A9275",
+      "channel": "rc",
+      "betaNumber": null,
+      "publishedAt": "2026-10-05T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "9b75f9b4c9ac299eda0dfe1f882b985fea13b043c6a44564b9822f18bb870a2e"
+    },
+    {
       "kind": "watchOS",
       "version": "27.0.1",
       "build": "24R365",
@@ -65,61 +131,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "f9ec4cd59a99d2fde70cd660bdbd1e2c487459042f24b48172b7dd5a11ba1554"
-    },
-    {
-      "kind": "iOS",
-      "version": "27.2",
-      "build": "24B5089g",
-      "channel": "developerBeta",
-      "betaNumber": 2,
-      "publishedAt": "2026-09-21T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "ca7f367b25e1f1def8385629213ccf057bf1df5181f9306a88e0f91c731f3c58"
-    },
-    {
-      "kind": "iPadOS",
-      "version": "27.2",
-      "build": "24B5089g",
-      "channel": "developerBeta",
-      "betaNumber": 2,
-      "publishedAt": "2026-09-21T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "5e560c94ea1d514253165b39a523db19bad96564bef13b164f91995be9b86aa8"
-    },
-    {
-      "kind": "macOS",
-      "version": "27.2",
-      "build": "26B5091g",
-      "channel": "developerBeta",
-      "betaNumber": 2,
-      "publishedAt": "2026-09-21T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "cec91fe05467560b08a678dbe90ba762068a5813200fffbc97df94bd5bb940e2"
-    },
-    {
-      "kind": "tvOS",
-      "version": "27.2",
-      "build": "24K5093g",
-      "channel": "developerBeta",
-      "betaNumber": 2,
-      "publishedAt": "2026-09-21T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "70f8f7867fa822aa32489198434c2d06472a4c6ca763142fe3745d559d5d967e"
-    },
-    {
-      "kind": "watchOS",
-      "version": "27.2",
-      "build": "24S5091f",
-      "channel": "developerBeta",
-      "betaNumber": 2,
-      "publishedAt": "2026-09-21T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "3e4acf55d351942798f5b53a5a46d9fc941a6958fce6aac2b4a233c891c0d36c"
     },
     {
       "kind": "xcode",
