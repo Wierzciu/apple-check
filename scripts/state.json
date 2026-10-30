@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "xcode",
+      "version": "27.2",
+      "build": "27B52",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-10-29T17:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "cf9b838f6a57153673d6682d7813ca65e05c81b3bb1737830b76365636738df3"
+    },
+    {
       "kind": "iOS",
       "version": "27.2",
       "build": "24B91020",
@@ -87,17 +98,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "e5581c126bf92e6c54d15c2cf8477691d7c70c77be9af3232573e730f28498e5"
-    },
-    {
-      "kind": "xcode",
-      "version": "27.2",
-      "build": "27B48",
-      "channel": "rc",
-      "betaNumber": null,
-      "publishedAt": "2026-10-19T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "a305521bc716d544e3fde8ec432efea08d33bebcc6b4108656580ea739c0ef38"
     },
     {
       "kind": "xcode",
