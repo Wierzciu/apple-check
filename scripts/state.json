@@ -2,6 +2,72 @@
   "items": [
     {
       "kind": "xcode",
+      "version": "27.3",
+      "build": "27C5020n",
+      "channel": "developerBeta",
+      "betaNumber": null,
+      "publishedAt": "2026-11-03T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "f858cea53db3d2f8c2cd2c0da1b0b5cfac935904d6cf640de311ec6c8b370968"
+    },
+    {
+      "kind": "iOS",
+      "version": "27.3",
+      "build": "24C5037i",
+      "channel": "developerBeta",
+      "betaNumber": null,
+      "publishedAt": "2026-11-03T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "68c43f557b15a2a6922fa5d3a9a49d42a02ed5a6427f2ffc83411efcaf993580"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "27.3",
+      "build": "24C5037i",
+      "channel": "developerBeta",
+      "betaNumber": null,
+      "publishedAt": "2026-11-03T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "f0baf81fcc31830edae450c619818db32553ac4bd399d7daba3e8c5916adf344"
+    },
+    {
+      "kind": "macOS",
+      "version": "27.3",
+      "build": "26C5035r",
+      "channel": "developerBeta",
+      "betaNumber": null,
+      "publishedAt": "2026-11-03T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "bebeefceeee58aaa870673e88477816c557ebce29c6db3bcea23f31451ab8ac4"
+    },
+    {
+      "kind": "tvOS",
+      "version": "27.3",
+      "build": "24K5286g",
+      "channel": "developerBeta",
+      "betaNumber": null,
+      "publishedAt": "2026-11-03T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "920c7e7a5d91c4345a83ab4497f096f76eaf4bb2141ed468f69c55328da22815"
+    },
+    {
+      "kind": "watchOS",
+      "version": "27.3",
+      "build": "24S5284h",
+      "channel": "developerBeta",
+      "betaNumber": null,
+      "publishedAt": "2026-11-03T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "b6133f138204079be4c36a4bbf7f4687bbc62b63b5bb89037f3d3fe77897e980"
+    },
+    {
+      "kind": "xcode",
       "version": "27.2",
       "build": "27B52",
       "channel": "release",
