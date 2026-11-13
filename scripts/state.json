@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "kind": "tvOS",
+      "version": "27.2.1",
+      "build": "24K157",
+      "channel": "release",
+      "betaNumber": null,
+      "publishedAt": "2026-11-13T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "074861b0c056d1203529712f7031457e85622bea5efb85c79cb3da8ce435b7bc"
+    },
+    {
       "kind": "iOS",
       "version": "27.2.1",
       "build": "24B91034",
@@ -153,17 +164,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "cf9b838f6a57153673d6682d7813ca65e05c81b3bb1737830b76365636738df3"
-    },
-    {
-      "kind": "tvOS",
-      "version": "27.2",
-      "build": "24K122",
-      "channel": "release",
-      "betaNumber": null,
-      "publishedAt": "2026-10-26T17:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "942c73b4e56984417574544135a05bf1f5cecd087388fc265f061517b25ac99a"
     },
     {
       "kind": "xcode",
