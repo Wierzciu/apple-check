@@ -1,6 +1,72 @@
 {
   "items": [
     {
+      "kind": "xcode",
+      "version": "27.3",
+      "build": "27C5035i",
+      "channel": "developerBeta",
+      "betaNumber": 2,
+      "publishedAt": "2026-11-16T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "6dc1051ea26e27893601dc71afb7c52cad5e8822eadb52f47e0df3c29b00d653"
+    },
+    {
+      "kind": "iOS",
+      "version": "27.3",
+      "build": "24C5049d",
+      "channel": "developerBeta",
+      "betaNumber": 2,
+      "publishedAt": "2026-11-16T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "0c0b7c920675f4e3ff6ed56d80cdd2ec5b07a822d6098984016ebe824939d07c"
+    },
+    {
+      "kind": "iPadOS",
+      "version": "27.3",
+      "build": "24C5049d",
+      "channel": "developerBeta",
+      "betaNumber": 2,
+      "publishedAt": "2026-11-16T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "073c042877962698fd5c511f3e4eaefcd8ee297b65473dd5324af6d9a3f5156b"
+    },
+    {
+      "kind": "macOS",
+      "version": "27.3",
+      "build": "26C5047e",
+      "channel": "developerBeta",
+      "betaNumber": 2,
+      "publishedAt": "2026-11-16T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "9115c8027b604eb0403a7d11ee6a19d3a836979cfdc93624aec3b185eb154da0"
+    },
+    {
+      "kind": "tvOS",
+      "version": "27.3",
+      "build": "24K5298d",
+      "channel": "developerBeta",
+      "betaNumber": 2,
+      "publishedAt": "2026-11-16T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "8bbab7d0274b1be059444afc6f40c6464c786b86c1092952995cd44a466d3084"
+    },
+    {
+      "kind": "watchOS",
+      "version": "27.3",
+      "build": "24S5296d",
+      "channel": "developerBeta",
+      "betaNumber": 2,
+      "publishedAt": "2026-11-16T18:00:00+00:00",
+      "status": "announce_first",
+      "deviceIdentifier": null,
+      "hash": "492f236ea7d57282f75b753876d183d168c7e85d318d74f091b28860a11a7d00"
+    },
+    {
       "kind": "tvOS",
       "version": "27.2.1",
       "build": "24K157",
@@ -87,72 +153,6 @@
       "status": "announce_first",
       "deviceIdentifier": null,
       "hash": "e472130e2f3a1f68070e6c71951c9b35212c1fb133313631fac9c5ed57f531b9"
-    },
-    {
-      "kind": "xcode",
-      "version": "27.3",
-      "build": "27C5020n",
-      "channel": "developerBeta",
-      "betaNumber": null,
-      "publishedAt": "2026-11-03T18:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "f858cea53db3d2f8c2cd2c0da1b0b5cfac935904d6cf640de311ec6c8b370968"
-    },
-    {
-      "kind": "iOS",
-      "version": "27.3",
-      "build": "24C5037i",
-      "channel": "developerBeta",
-      "betaNumber": null,
-      "publishedAt": "2026-11-03T18:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "68c43f557b15a2a6922fa5d3a9a49d42a02ed5a6427f2ffc83411efcaf993580"
-    },
-    {
-      "kind": "iPadOS",
-      "version": "27.3",
-      "build": "24C5037i",
-      "channel": "developerBeta",
-      "betaNumber": null,
-      "publishedAt": "2026-11-03T18:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "f0baf81fcc31830edae450c619818db32553ac4bd399d7daba3e8c5916adf344"
-    },
-    {
-      "kind": "macOS",
-      "version": "27.3",
-      "build": "26C5035r",
-      "channel": "developerBeta",
-      "betaNumber": null,
-      "publishedAt": "2026-11-03T18:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "bebeefceeee58aaa870673e88477816c557ebce29c6db3bcea23f31451ab8ac4"
-    },
-    {
-      "kind": "tvOS",
-      "version": "27.3",
-      "build": "24K5286g",
-      "channel": "developerBeta",
-      "betaNumber": null,
-      "publishedAt": "2026-11-03T18:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "920c7e7a5d91c4345a83ab4497f096f76eaf4bb2141ed468f69c55328da22815"
-    },
-    {
-      "kind": "watchOS",
-      "version": "27.3",
-      "build": "24S5284h",
-      "channel": "developerBeta",
-      "betaNumber": null,
-      "publishedAt": "2026-11-03T18:00:00+00:00",
-      "status": "announce_first",
-      "deviceIdentifier": null,
-      "hash": "b6133f138204079be4c36a4bbf7f4687bbc62b63b5bb89037f3d3fe77897e980"
     },
     {
       "kind": "xcode",
